@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/index/seoux_logo.png">
+    <title>Seoux | Payment</title>
+    <link rel="stylesheet" href="./Styles/payment.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" id="form">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing address</h3>
+                    <div class="inputBox">
+                        <span>full name :</span>
+                        <input type="text" placeholder="john deo" id="name" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="example@mail.com" id="email" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="room - street" id="address" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>city :</span>
+                        <input type="text" placeholder="city" id="city" required>
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="text" placeholder="state" id="state" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Zip code :</span>
+                            <input type="number" placeholder="000000" id="zipcode" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+                    <div class="inputBox">
+                        <span>cards accepted :</span>
+                        <img src="./images/paymentPage/images3.png" alt="cards accepted">
+                    </div>
+                    <div class="inputBox">
+                        <span>name on card :</span>
+                        <input type="text" placeholder="mr. john deo" id="name_on_card" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>card number :</span>
+                        <input type="number" placeholder="0000-0000-0000-0000" id="card_number" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>expiry month :</span>
+                        <input type="number" placeholder="00" id="expiry_month" required>
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>expiry year :</span>
+                            <input type="number" placeholder="0000" id="expiry_year" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="123" id="cvv" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Proceed to checkout" class="submit-btn" id="submit">
+        </form>
+    </div>
+
+</body>
+<script src="./Scripts/payment.js"></script>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+                         initial-scale=1.0"
+    />
+    <title>Seoux | Login</title>
+    <link rel="icon" href="./images/index/seoux_logo.png" />
+    <link rel="stylesheet" href="./Styles/loginsignup.css" />
+    <link rel="stylesheet" href="./Styles/alert.css" />
+    <script
+      src="https://kit.fontawesome.com/c428d53560.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- <h1 class="heading">GeeksforGeeks</h1>
+        kjkjfnkdn
+
+
+
+
+
+        
+      <h3 class="title">Sliding Login & Registration Form</h3> -->
+    </header>
+
+    <!-- container div -->
+    <div class="container">
+      <!-- upper button section to select
+             the login or signup form -->
+      <div class="slider"></div>
+      <div class="btn">
+        <button class="login">Login</button>
+        <button class="signup">Signup</button>
+      </div>
+
+      <!-- Form section that contains the
+             login and the signup form -->
+      <div class="form-section">
+        <!-- login form -->
+        <div class="login-box">
+          <input
+            id="login_email"
+            type="email"
+            class="email ele"
+            placeholder="youremail@email.com"
+          />
+          <input
+            id="login_pass"
+            type="password"
+            class="password ele"
+            placeholder="password"
+          />
+          <button id="login_btn" class="clkbtn">Login</button>
+        </div>
+
+        <!-- signup form -->
+        <div class="signup-box">
+          <input
+            type="text"
+            id="name"
+            class="name ele"
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            id="email"
+            class="email ele"
+            placeholder="youremail@email.com"
+          />
+          <input id="age" type="number" placeholder="Age" class="age ele" />
+          <input
+            id="gender"
+            type="text"
+            placeholder="Gender"
+            class="gender ele"
+          />
+          <input
+            id="pass"
+            type="password"
+            class="password ele"
+            placeholder="password"
+          />
+          <!-- <input
+            type="password"
+            class="password ele"
+            placeholder="Confirm password"
+          /> -->
+          <button id="signup_btn" class="clkbtn">Signup</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./Scripts/loginsignup.js"></script>
+  </body>
+</html>
